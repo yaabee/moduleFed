@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./Types"],
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "esnext",
+    "target": "es2018",
+    "inlineSources": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "lib": ["es2018", "esnext", "dom", "DOM.Iterable", "ES2018.AsyncIterable"],
+    "baseUrl": "./",
+    "paths": {
+      "Utils/*": ["src/components/Utils/*"],
+      "Static/*": ["Static/*"]
+    },
+    "sourceRoot": "/"
+  }
+}
